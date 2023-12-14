@@ -15,19 +15,19 @@ export const createMarkap = photo => {
     <img class="gallery-photo" src="${webformatURL}" alt="${tags}" width=400  loading="lazy" />
     </a>
     <div class="info">
-      <p class="info-item">
+      <p>
         <b>Likes</b>
         ${likes}
       </p>
-      <p class="info-item">
+      <p>
         <b>Views</b>
         ${views}
       </p>
-      <p class="info-item">
+      <p>
         <b>Comments</b>
         ${comments}
       </p>
-      <p class="info-item">
+      <p>
         <b>Downloads</b>
       ${downloads}
         </p>
